@@ -21,6 +21,9 @@ scene.add(mesh)
 
 mesh.position.set(0.7, -0.6, 1)
 
+//Scale
+mesh.scale.set(2, 0.5, 0.5)
+
 //Axes Helper
 const axesHelper = new THREE.AxesHelper()
 scene.add(axesHelper)
@@ -38,8 +41,8 @@ const sizes = {
  */
 const camera = new THREE.PerspectiveCamera(75, sizes.width / sizes.height)
 camera.position.z = 3
-camera.position.y = 1
-camera.position.x = 1
+camera.position.y = 0
+camera.position.x = 0
 scene.add(camera)
   
 
