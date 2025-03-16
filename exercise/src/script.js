@@ -50,6 +50,8 @@ camera.position.z = 3
 camera.position.y = 0
 camera.position.x = 0
 scene.add(camera)
+
+camera.lookAt(mesh.position)
   
 
 /**
